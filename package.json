@@ -1,0 +1,31 @@
+{
+  "name": "TypeScriptDesignPatterns",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node dist/app.js",
+    "dev":"nodemon src/app.ts",
+    "buld":"tsc -p ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gruning/TypeScriptDesignPatterns.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gruning/TypeScriptDesignPatterns/issues"
+  },
+  "homepage": "https://github.com/Gruning/TypeScriptDesignPatterns#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@types/node": "github:types/express",
+    "nodemon": "^2.0.4",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.7"
+  }
+}
