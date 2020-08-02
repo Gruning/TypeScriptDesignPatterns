@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "node dist/app.js",
-    "dev":"nodemon src/app.ts",
-    "buld":"tsc -p ."
+    "dev": "nodemon src/app.ts",
+    "buld": "tsc -p ."
   },
   "repository": {
     "type": "git",
