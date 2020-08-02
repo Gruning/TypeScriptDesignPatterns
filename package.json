@@ -3,10 +3,20 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.7",
+    "@types/node": "^14.0.27",
+    "nodemon": "^2.0.4",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.7"
+  },
   "scripts": {
-    "test": "node dist/app.js",
-    "dev": "nodemon src/app.ts",
-    "buld": "tsc -p ."
+    "start": "node dist/app.js",
+    "dev":"nodemon src/app.ts",
+    "buld":"tsc -p ."
   },
   "repository": {
     "type": "git",
@@ -18,14 +28,5 @@
   "bugs": {
     "url": "https://github.com/Gruning/TypeScriptDesignPatterns/issues"
   },
-  "homepage": "https://github.com/Gruning/TypeScriptDesignPatterns#readme",
-  "dependencies": {
-    "express": "^4.17.1"
-  },
-  "devDependencies": {
-    "@types/node": "github:types/express",
-    "nodemon": "^2.0.4",
-    "ts-node": "^8.10.2",
-    "typescript": "^3.9.7"
-  }
+  "homepage": "https://github.com/Gruning/TypeScriptDesignPatterns#readme"
 }
