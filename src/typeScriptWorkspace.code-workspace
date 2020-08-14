@@ -6,12 +6,12 @@
 	],
 	"settings": {
 		"workbench.colorCustomizations": {
-			"statusBar.background": "#663399",
-			"statusBar.border": "#663399",
+			"statusBar.background": "#eb5424",
+			"statusBar.border": "#eb5424",
 			"statusBar.foreground": "#e7e7e7",
-			"statusBarItem.hoverBackground": "#7f40bf",
-			"tab.activeBorder": "#7f40bf"
+			"statusBarItem.hoverBackground": "#ef7853",
+			"tab.activeBorder": "#ef7853"
 		},
-		"peacock.color": "#639"
+		"peacock.color": "#eb5424"
 	}
 }
