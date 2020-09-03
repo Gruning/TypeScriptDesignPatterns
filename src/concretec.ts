@@ -2,7 +2,7 @@ import { IDepC } from './idepc'
 import { IDepB } from './idepb'
 import { IDepA } from './idepa'
 
-export class ConcreteC implements iDepC {
+export class ConcreteC implements IDepC {
     constructor(private _depA: IDepA, private _depB:IDepB){
 
     }

@@ -1,3 +1,3 @@
-    export interface iDepC{
+    export interface IDepC{
         doC: void;
 }
